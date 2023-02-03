@@ -5,9 +5,22 @@ import Typical from "react-typical";
 // components import...
 import Navbar from "../components/Nav";
 
+// utils imports...
+import github from "../utils/github.svg";
+import bureau from "../utils/bureau-logo.png";
+import reader from "../utils/reader.png";
+import smiling_guy from "../utils/smiling_guy.png";
+import group from "../utils/group.jpg";
+import techpoint from "../utils/techpoint.png";
+import techcrunch from "../utils/techcrunch.svg";
+import techcabal from "../utils/techcabal.svg";
+import disrupt from "../utils/disrupt.svg";
+import collab from "../utils/collab.png";
+
 const Main = () => {
     return (
         <div className="home-main">
+            <header className="header">
             <div className="typical-animation">
                     Kickstart your tech career in{' '} <span className="typical">
                         <Typical
@@ -46,6 +59,30 @@ const Main = () => {
             </div>
             <div className="dollar">
                 Learn in-demand tech skills for just $1 a day
+            </div>
+            </header>
+            <div className="info-container">
+                <div className="partnership">
+                    <span>In Partnership with</span>
+                </div>
+                <div className="github">
+                    <img src={github} alt="GitHub-Logo" />
+                </div>
+                <div className="verification-text">
+                    <span>Verification of Exemption from BBPE in line with the State of California</span>
+                </div>
+                <div className="bureau">
+                    <img src={bureau} alt="BBPE-Logo" />
+                </div>
+                <div className="question">
+                    <span>what is altschoolafica?</span>
+                </div>
+                <div className="reader">
+                    <img src={reader} alt="Reader-Logo" />
+                </div>
+            </div>
+            <div className="gist-wrapper">
+                
             </div>
         </div>
     )

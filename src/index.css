@@ -8,6 +8,7 @@ body {
   font-family: sans-serif;
 }
 .nav-container {
+  background-color: #fff6ee;
   position: sticky;
   top: 0;
 }
@@ -145,5 +146,53 @@ body {
   margin-left: auto;
   border-radius: 25px;
   font: 12.8px AlmarenaBold, sans-serif;
-  font-weight: 700;
+  font-weight: 750;
+}
+.header {
+ padding-bottom: 50px;
+ margin-bottom: 10px;
+}
+.info-container {
+  background-color: #FFFFFF;
+  padding-top: 65px;
+}
+.info-container .partnership {
+  font: 20.8px AlmarenaDisplayRegular, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20.8px;
+}
+.info-container .github {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20.8px;
+}
+.info-container .verification-text {
+  font: 20.8px AlmarenaDisplayRegular, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20.8px;
+}
+.info-container .bureau {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20.8px;
+}
+.info-container .bureau img {
+  width: 60px;
+  height: 60px;
+}
+.info-container .question {
+  text-transform: uppercase;
+  margin-left: 6%;
+  font: 18px AlmarenaDisplayRegular, sans-serif;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+.info-container .reader {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
