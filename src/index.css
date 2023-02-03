@@ -1,13 +1,149 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff6ee;
+  font-family: sans-serif;
+}
+.nav-container {
+  position: sticky;
+  top: 0;
+}
+.nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  width: 100%;
+}
+.menu-bar {
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: black;
+  /* border: 1px solid green; */
+  width: max-content;
+  font-weight: 600;
+}
+.menu-bar ul li {
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid red; */
+  transition: all 3s ease-in;
+
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.sub-menu1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu1 {
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: -15px;
+  background-color: #fff;
+}
+.sub-menu1 ul {
+  display: block;
+}
+.sub-menu ul li {
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.logo-link-to-home {
+  margin-left: -7.5%;
+  margin-right: 7.5%;
+}
+.apply-link {
+  margin-left: 7.5%;
+  margin-right: -5%;
+}
+.apply-link button {
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 20px 35px;
+  background-color: black;
+  color: white;
+  transition: all 2s ease;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.apply-link button:hover {
+  box-shadow: 1px 3px;
+  opacity: .6;
+}
+
+.announcement {
+  background-color: #6772e5;
+  font: 14px EuclidRegular, sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 25px 0 0;
+  padding: 10px;
+  margin-bottom: 81.5px;
+  clear: both;
+}
+.announcement a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font: 14px EuclidRegular, sans-serif;
+}
+.typical-animation {
+  font: 51px AlmarenaDisplayBold, sans-serif;
+  color: #0f0f19;
+  justify-content: center;
+  text-align: center;
+}
+.typical-animation .typical {
+  color: #6772e5;
+}
+
+.p1 {
+  /* border: 1px solid red; */
+  width: 600px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  font: 22px AlmarenaDisplayLight, sans-serif;
+  color: #0f0f19;
+  padding: 20px 0 0;
+}
+
+.apply-div {
+  width: max-content;
+  /* border: 1px solid red; */
+  margin: 50px auto;
+}
+.apply-div a button {
+  border: none;
+  background-color: #0f0f19;
+  font: 16px Almarena, sans-serif;
+  color: #FFFFFF;
+  padding: 25px 50px;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+.apply-div a button:hover {
+  opacity: .6;
+}
+.dollar {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+  font: 12.8px AlmarenaBold, sans-serif;
+  font-weight: 700;
 }
