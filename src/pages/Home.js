@@ -21,7 +21,7 @@ const Main = () => {
     return (
         <div className="home-main">
             <header className="header">
-            <div className="typical-animation">
+                <div className="typical-animation">
                     Kickstart your tech career in{' '} <span className="typical">
                         <Typical
                             loop={Infinity}
@@ -42,24 +42,24 @@ const Main = () => {
                             ]}
                         />
                     </span>
-            </div>
-            <div className="p1">
-                Learn the in-demand skills required to take you from beginner
-                <br />
-                to industry in 12 months. No degree
-                <br />
-                or prior tech experience required.
-            </div>
-            <div className="apply-div">
-                <Link to="/apply">
-                    <button>
-                        Apply now
-                    </button>
-                </Link>
-            </div>
-            <div className="dollar">
-                Learn in-demand tech skills for just $1 a day
-            </div>
+                </div>
+                <div className="p1">
+                    Learn the in-demand skills required to take you from beginner
+                    <br />
+                    to industry in 12 months. No degree
+                    <br />
+                    or prior tech experience required.
+                </div>
+                <div className="apply-div">
+                    <Link to="/apply">
+                        <button>
+                            Apply now
+                        </button>
+                    </Link>
+                </div>
+                <div className="dollar">
+                    Learn in-demand tech skills for just $1 a day
+                </div>
             </header>
             <div className="info-container">
                 <div className="partnership">
@@ -81,14 +81,35 @@ const Main = () => {
                     <img src={reader} alt="Reader-Logo" />
                 </div>
             </div>
-            <div className="gist-wrapper">
-                
+            <div className="marginal-wrapper">
+                <div className="marginal-content1">
+                    <div classname="marginal-span">
+                        <span className="shaper-span">Shaping the</span>
+                        <span className="black-span"></span>
+                    </div>
+                    <span className="future-span">Future of Work</span>
+                </div>
+                <div className="marginal-content2">
+                    <p className="marginal-p1">
+                        As the name suggests, AltSchool Africa is different from the traditional institutions. We are a school for individuals looking to gain technical skills and kickstart a career in Tech. AltSchool Africa takes a non-traditional approach to learning by teaching courses directly connected with the selected track.
+                    </p>
+                    <p className="marginal-p2">
+                        Our robust curriculum which combines theoretical knowledge with practical real world applications is guaranteed to transform anyone into a top Software Engineer within one year.
+                    </p>
+                    <Link to="/story" className="finder">
+                        <div className="finder-div">
+                            <button className="finder-btn">
+                                Find out more &rarr;
+                            </button>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </div>
     )
 }
-
-export default function HomePage () {
+// sax dance...
+export default function HomePage() {
     return (
         <div className="home-container">
             <Navbar />
