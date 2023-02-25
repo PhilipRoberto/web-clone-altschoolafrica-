@@ -1,0 +1,69 @@
+.section-four-main-container {
+    background: rgb(255, 246, 238);
+    padding: 52px 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.section-four-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+}
+.section-four-img-container {
+    width: 60%;
+    height: 510px;
+}
+.section-four-img-container img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-style: none;
+    vertical-align: middle;
+}
+.section-four-prep-msg-container {
+    background: rgb(251, 228, 209);
+    height: 400px;
+    position: absolute;
+    width: 48%;
+    right: 0px;
+    padding: 40px;
+    top: 60px;
+}
+.section-four-prep-msg-container h3 {
+    color: rgb(0, 0, 0);
+    font-family: Almarena, sans-serif;
+    font-size: 1.8em;
+    margin: 0px 0px 16px;
+    font-weight: 500;
+}
+.section-four-prep-msg-container p {
+    font-family: EuclidRegular, sans-serif;
+    color: rgb(15, 15, 25);
+    font-size: 1.1em;
+    line-height: 24px;
+    margin: 0px;
+}
+.the-msg-link {
+    width: 50%;
+    margin-top: 24px;
+}
+.the-msg-link a {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Almarena, sans-serif;
+    border: none;
+    height: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+.the-msg-link a:hover {
+    opacity: .8;
+}

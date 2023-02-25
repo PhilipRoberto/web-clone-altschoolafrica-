@@ -1,0 +1,100 @@
+.section-2-container {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 40px;
+}
+/* .box {
+    border: 1px solid black;
+} */
+.box-3, .box-4 {
+    background: rgb(106, 111, 245);
+}
+.section-2-boxes {
+    width: 1226px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mystery-question-div {
+    width: 1200px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.mystery-question {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section-2-details {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.section-2-details-img {
+    width: 400px;
+    height: 400px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.section-2-details-img::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: -130px;
+    background: rgb(251, 228, 209);
+    width: 218.97px;
+    height: 100.1px;
+    transform: rotate(120deg);
+}
+.smiling_guy {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.scrolling-card-wrapper {
+    width: 40%;
+    overflow-y: auto;
+    height: 380px;
+    margin-right: 4%;
+    padding-top: 5%;
+}
+.scrollable-card {
+    margin-bottom: 70px;
+}
+.sc-head {
+    letter-spacing: -0.01em;
+    font-size: 2.25em;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+.sc-paragraph {
+    line-height: 24px;
+    font-size: 1.125em;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+.sc-link-div {
+    margin-top: 30px;
+    width: 65%;
+}
+.sc-link-div a button {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Almarena, sans-serif;
+    border: none;
+    height: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    background: rgb(106, 111, 245) !important;
+}

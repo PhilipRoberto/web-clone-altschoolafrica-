@@ -1,0 +1,135 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: all 0.3s ease 0s;
+    padding-top: 17px;
+    background: rgb(255, 246, 238);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-head {
+    display: flex;
+    gap: 150px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.img-case1 {
+    display: flex;
+    /* border: 1px solid black; */
+}
+img {
+    border-style: none;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.menu-item {
+    position: relative;
+}
+.menu-span {
+    font-size: 1em;
+    font-family: AlmarenaBold, sans-serif;
+    color: rgb(15, 15, 15);
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.init1 {
+    animation: 1s ease 0s 1 normal none running;
+    position: absolute;
+    display: none;
+}
+.init2 {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width: max-content;
+}
+.init3 {
+    transition: all 0.3s ease 0s;
+}
+.sub-menu-item {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s ease 0s;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.sub-menu-span {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.sub-menu-item:hover {
+    background-color: aquamarine;
+}
+.sub-menu-item:last-child {
+    margin-bottom: 0;
+}
+.item2:hover .init1 {
+    display: flex;
+}
+
+.apply-div {
+    background: rgb(0,0,0);
+    /* padding: 10px 20px; */
+    transition: all 1s ease;
+}
+.apply-div:hover {
+    opacity: .8;
+}
+button {
+    border: none;
+    background: none;
+    color: white;
+    padding: 20px 40px;
+    font-size: 1em;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+.banner-wrapper {
+    background: rgb(103, 114, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.banner-space {
+    color: white;
+    font-family: sans-serif;
+}

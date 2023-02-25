@@ -1,0 +1,78 @@
+.section-3-section {
+    padding-top: 48px;
+}
+.school-finder-div {
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.school-finder-p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.schools-disc-div {
+    padding-top: 8px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.some-three-box-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.schools-disc-h1 {
+    font-size: 36px;
+}
+.that-box-1-2-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 70px;
+}
+.that-box {
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background: white;
+}
+.that-box::before {
+    content: "";
+    position: absolute;
+    background: rgb(255, 243, 233);
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 100%;
+    top: -15px;
+    left: -15px;
+    z-index: -2;
+    transition: all 0.3s ease 0s;
+}
+.that-box-img-cont {
+    display: flex;
+    background: rgb(252, 213, 211);
+    padding: 20px;
+}
+.that-box-content-heading {
+    padding: 20px;
+}
+.that-box-content-p {
+    padding: 10px;
+    line-height: 26px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.that-box-content-link {
+    color: rgb(106, 111, 245);
+}
+.that-box-3-wrapper {
+    width: 50%;
+    margin: 0 auto 70px;
+}

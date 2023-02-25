@@ -1,0 +1,83 @@
+.section-one-head {
+    padding-top: 40px;
+}
+.partnership-container {
+    padding: 20px 0;
+}
+.partnership-div, .verification-div {
+    margin-bottom: 16px;
+}
+.partner-p, .verification-div {
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.partnership-div, .github-div, .verification-div, .bppe-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verification-container {
+    padding: 20px 0;
+}
+.bppe-div img {
+    width: 60px;
+    height: 60px;
+}
+.section-one-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    border: none;
+    width: 70px;
+    height: 60px;
+}
+.box-1, .box-2 {
+    background: rgb(229, 96, 89);
+}
+.section-one-details {
+    padding: 40px 0;
+}
+.altschool-question-p, .section-one-details-img-div, .section-one-details-gist-div {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.altschool-question-p {
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section-one-details-img-div {
+    padding: 18px 0;
+}
+.section-one-details-gist-div {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shaper-div, .section-one-details-ps-div {
+    width: 50%;
+}
+.shape, .future {
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 7px 0;
+}
+.section-one-details-p1, .section-one-details-p2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 26px;
+    margin-bottom: 1em;
+    padding: 15px 0;
+}
+.section-one-details-link {
+    width: max-content;
+    background: rgb(0, 0, 0);
+    transition: all 2s ease;
+}
+.section-one-details-link:hover {
+    opacity: .8;
+}

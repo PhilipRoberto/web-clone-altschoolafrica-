@@ -1,0 +1,68 @@
+.section-five-container {
+    padding: 40px 0;
+}
+.section-five-features-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-five-features-heading-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-five-features-heading {
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+.section-five-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techpoint-feature {
+    padding: 20px 0;
+}
+.techcrunch, .techcabal, .disrupt {
+    width: 280px;
+    height: 100px;
+}
+.section-five-collaborate-container {
+    padding: 60px 0 20px;
+}
+.collaborate-section {
+    width: 1200px;
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.collaborate-msg {
+    padding: 20px;
+    width: 50%;
+}
+.collaborate-msg-heading {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.collaborate-msg-p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 20px 0;
+}
+.collab-link-container {
+    background: rgb(106, 111, 245);
+    width: max-content;
+}

@@ -1,0 +1,33 @@
+.section-six-main-container {
+    background-color: #000000;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.section-six-container {
+    padding: 60px 0;
+}
+.section-six-groupie {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.powerer-heading, .schools-heading, .specialisation-heading, .companies-heading, .gister-heading, .resources-heading {
+    font-size: 1.125em;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.social-media-powers {
+    display: flex;
+    max-width: max-content;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.telephone-content-wrapper {
+    padding: 0 0 60px;
+}
+.school, .specialisation, .what-can-do, .gister, .resource, .tele {
+    padding: 6px 0;
+    font-size: 14px;
+}

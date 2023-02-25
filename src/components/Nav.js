@@ -1,74 +1,95 @@
+// modules imports...
 import React from "react";
 import { Link } from "react-router-dom";
 
-// utils import...
-import logo1 from "../utils/altschoollogo.svg";
+// stylesheet import...
+import "../styles/navbar_styles.css";
+
+// utils imports...
+import altschoollogo from "../utils/altschoollogo.svg";
 
 export default function Navbar() {
     return (
         <nav className="nav-container">
-            <div className="nav">
-            <Link to="/" className="logo-link-to-home">
-                <img src={logo1} alt="alt-school-africa-logo" className="logo1" />
-            </Link>
-            <div className="menu-bar">
-                <ul>
-                    <li className="active">
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/schools">
-                            Schools
-                        </Link>
-                        <div className="sub-menu1">
-                            <ul>
-                                <li>
-                                    <Link to="/schools/engineering">School of Engineering</Link>
-                                </li>
-                                <li>
-                                    <Link to="/schools/product">School of Product</Link>
-                                </li>
-                                <li>
-                                    <Link to="/schools/data">School of Data</Link>
-                                </li>
-                            </ul>
+            <div className="nav-head">
+                <div className="img-case1">
+                    <Link to="/">
+                        <img src={altschoollogo} alt="alt-school-logo" />
+                    </Link>
+                </div>
+                <div className="menu-container">
+                    <div className="menu-items">
+                        <div className="menu-item item1">
+                            <Link to="/">
+                                <span className="menu-span">Home</span>
+                            </Link>
                         </div>
-                    </li>
-                    <li>
-                        <Link to="/tuition">
-                            Tuition
+                        <div className="menu-item item2">
+                            <Link to="/schools">
+                                <span className="menu-span">Schools</span>
+                            </Link>
+                            <div className="init1">
+                                <div className="init2">
+                                    <div className="init3">
+                                        <div className="sub-menu-item sub1">
+                                            <Link to="/schools/engineering">
+                                                <span className="sub-menu-span">School of Engineering</span>
+                                            </Link>
+                                        </div>
+                                        <div className="sub-menu-item sub2">
+                                            <Link to="/schools/product">
+                                                <span className="sub-menu-span">School of Product</span>
+                                            </Link>
+                                        </div>
+                                        <div className="sub-menu-item sub3">
+                                            <Link to="/schools/data">
+                                                <span className="sub-menu-span">School of Data</span>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="tuition-div">
+                            <Link to="/tuition">
+                                <span className="menu-span">Tuition</span>
+                            </Link>
+                        </div>
+                        <div className="faqs-div">
+                            <Link to="/faqs">
+                                <span className="menu-span">FAQS</span>
+                            </Link>
+                        </div>
+                        <div className="story-teller">
+                            <Link to="/story">
+                                <span className="menu-span">Our Story</span>
+                            </Link>
+                        </div>
+                        <div className="collaborator-div">
+                            <Link to="/collaborate">
+                                <span className="menu-span">Collaborate with us</span>
+                            </Link>
+                        </div>
+                        <div className="career-div">
+                            <Link to="/careers">
+                                <span className="menu-span">Careers</span>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="apply-div">
+                        <Link to="/apply-now">
+                            <button>
+                                <span>Apply Now</span>
+                            </button>
                         </Link>
-                    </li>
-                    <li>
-                        <Link to="/faqs">
-                            FAQS
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/story">
-                            Our Story
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/collaborate">
-                            Collaborate with us
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/careers">
-                            Careers
-                        </Link>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
-
-            <Link to="/apply" className="apply-link">
-                <button>
-                    Apply now
-                </button>
-            </Link>
+            <div className="banner-wrapper">
+                <div className="banner-space">
+                    Applications to the school of engineering is currently open! <Link to="/apply-now">here</Link>
+                </div>
             </div>
-            <div className="announcement">Applications to the School of Engineering is currently open! <Link to="/schools/schoolofengineering">here</Link></div>
         </nav>
     )
 }
